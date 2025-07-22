@@ -49,8 +49,17 @@ Build & Run Instructions
 
 git bash
 pip install fastapi uvicorn openai
-uvicorn server:app --host 0.0.0.0 --port 8000
 
+OpenAI API Key Setup
+
+To run the backend with AI responses, you'll need your own OpenAI API key.
+
+Set the variable before running:
+
+In git bash
+export OPENAI_API_KEY="your key"
+
+uvicorn server:app --host 0.0.0.0 --port 8000
 
 Port must be 8000 and devices must be on the same network.
 
@@ -85,3 +94,4 @@ Limitations & Future Enhancements
 * Trivia questions are hardcoded
 
 Future ideas: Add user profiles, real-time score tracking, custom trivia sets, leaderboard.
+
