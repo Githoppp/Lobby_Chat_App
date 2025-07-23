@@ -1,5 +1,8 @@
 AI Chat Game - Real-Time Mobile App with Flutter & FastAPI
 
+Download Link:
+https://drive.google.com/file/d/1XXHs0LQDnv0rQnjCC3rHvdBcDg9yMO03/view?usp=sharing
+
 This is a real-time mobile chat game that connects human users with an AI-powered chatbot using Flutter (frontend), FastAPI (backend) and OpenAI's GPT model. Users can create or join public lobbies and chat in real time with each other and an AI assistant, the lobbies will have a trivia question after 3 prompts.
 
 
